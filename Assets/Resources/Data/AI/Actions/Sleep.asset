@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5369605196171675240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b713dcb7839b9454a8f30f731b081cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Wait9
+  childrenActions: []
+  Amount: 9
+--- !u!114 &-5275909437546781270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba41e5045af475241b2bcc2899b39c6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Goto portal 1
+  childrenActions: []
+  Goal: {x: -0.5, y: 1, z: -6.5}
+--- !u!114 &-2541780183129683245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf162fd058e7224a9bb298b13616b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Spawn audio clip
+  childrenActions: []
+  Prefab: {fileID: 2276989049196011497, guid: f0bd0ce754480ad49881f76754c00380, type: 3}
+  DestroyAfterTime: 1
+  DestroyTime: 2
+  Point: {x: 7.5, y: 1, z: -6.5}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69694088fb954442a01b36cded1e629, type: 3}
+  m_Name: Sleep
+  m_EditorClassIdentifier: 
+  Name: Sleep
+  childrenActions:
+  - {fileID: 11400000, guid: 7901f107944013244a43cbaa858bf6b1, type: 2}
+  - {fileID: 11400000, guid: 01a94e99d047054449a7b513737a564a, type: 2}
+  - {fileID: 11400000, guid: bc036ef5de37148408dd8eef959c5ab0, type: 2}
+  - {fileID: 9155432378403263549}
+  - {fileID: -2541780183129683245}
+  - {fileID: -5369605196171675240}
+  - {fileID: -5275909437546781270}
+  - {fileID: 5545671429556919720}
+  - {fileID: 11400000, guid: 4ea59cba4004ea641a505986a26c1cab, type: 2}
+  - {fileID: 6799618957179973715}
+--- !u!114 &5545671429556919720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387e124161b69f04892500237437ce53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Teleport to portal 1
+  childrenActions: []
+  position: {x: 2.5, y: 1, z: -2.5}
+--- !u!114 &6799618957179973715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf33461fd008b8438d659fc80d5e931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  childrenActions: []
+--- !u!114 &6945656831524166224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba41e5045af475241b2bcc2899b39c6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  childrenActions: []
+  Goal: {x: 0, y: 0, z: 0}
+--- !u!114 &9155432378403263549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b713dcb7839b9454a8f30f731b081cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Wait1
+  childrenActions: []
+  Amount: 1

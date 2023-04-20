@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0619cd1d79f92a419dc319630bc905a, type: 3}
+  m_Name: RandomAct
+  m_EditorClassIdentifier: 
+  Name: RandomAct
+  childrenActions:
+  - {fileID: 11400000, guid: ba4345f020cf96141b7b79d7956ea056, type: 2}
+  - {fileID: 11400000, guid: 5caa247ddca39c745a6a8ed2d7a90a5a, type: 2}
+  - {fileID: 11400000, guid: 71e0afee089bda243bce4ef7b49b81b1, type: 2}
+--- !u!114 &5211596635071482176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69694088fb954442a01b36cded1e629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  childrenActions: []
+--- !u!114 &8785531333325153149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69694088fb954442a01b36cded1e629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  childrenActions: []

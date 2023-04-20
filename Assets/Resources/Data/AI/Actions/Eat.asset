@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4089706609694976397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf162fd058e7224a9bb298b13616b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Spawn yummy text
+  childrenActions: []
+  Prefab: {fileID: 577222407107405669, guid: 6736f7557be0fa641b0e47c7a6fc9a8e, type: 3}
+  DestroyAfterTime: 1
+  DestroyTime: 2
+  Point: {x: 7.5, y: 1, z: 5.5}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69694088fb954442a01b36cded1e629, type: 3}
+  m_Name: Eat
+  m_EditorClassIdentifier: 
+  Name: Eat
+  childrenActions:
+  - {fileID: 11400000, guid: 3f2a82cd9f857b5479c21a8afe22fd7f, type: 2}
+  - {fileID: 2286707238879846008}
+  - {fileID: 249284530763721390}
+  - {fileID: -4089706609694976397}
+  - {fileID: 11400000, guid: 4ea59cba4004ea641a505986a26c1cab, type: 2}
+  - {fileID: 3551257964215665136}
+--- !u!114 &249284530763721390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b713dcb7839b9454a8f30f731b081cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Wait3
+  childrenActions: []
+  Amount: 3
+--- !u!114 &2286707238879846008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf162fd058e7224a9bb298b13616b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Spawn food effect
+  childrenActions: []
+  Prefab: {fileID: 577222407107405669, guid: 6736f7557be0fa641b0e47c7a6fc9a8e, type: 3}
+  DestroyAfterTime: 1
+  DestroyTime: 3
+  Point: {x: 7.5, y: 1, z: 5.5}
+--- !u!114 &3551257964215665136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf33461fd008b8438d659fc80d5e931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: 
+  childrenActions: []
